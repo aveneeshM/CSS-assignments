@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport"
+	 content="width=device-width, initial-scale=1.0">
+    <title>Log-In Page</title>
+    <link rel="shortcut icon" type="image/png" href="resources/images/icon.png">
+      <link rel="stylesheet" type="text/css"  href="resources/css-style/mystyle.css">
+      
+
+
+</head>
+
+<body>
+
+<h1 class="header" ><img src="resources/css-style/icon.png" alt="logo" /><i> MyRewards</i></h1>
+
+
+<div class="ee1">
+	<br>
+	<img src="resources/images/rew.gif" alt="reward"/>
+	    <p><i">Get a chance to win exciting rewards every hour!!</i><p>
+
+</div>
+
+
+
+
+<div class="ee2">
+
+
+<fieldset>
+	<legend><i><b>User Registration</b></i></legend>
+
+
+
+<form action="/action_page.php">
+
+ <div id="medium">
+ <fieldset>
+   <legend>Personal Details</legend>
+    <div class="row">
+        <label for="fname"><b>First Name:<sup>*</sup></b></label>
+        <br>
+        <input type="text" id="fname" name="firstname" placeholder="Full Name" >
+    </div>
+    <div class="row">
+        <label for="lname"><b>Last Name:<sup>*</sup></b></label><br>
+        <input type="text" id="lname" name="lastname" placeholder="Middle Name">
+    </div>
+    <div class="row">
+        <label for="lname"><b>Date of Birth:</b></label><br>
+        <input  type="date" id="dob" name="dob" placeholder="DD/MM/YYYY">
+    </div>
+    <div class="row">
+        
+        <label for="gend"><b>Gender:<sup>*</sup></b></label><br>
+        <input type="radio" name="gend" value="male" checked> Male<br>
+        <input type="radio" name="gend" value="female"> Female<br>
+        <input type="radio" name="gend" value="other"> Other  
+    
+    </div>
+    <div class="row">
+        <label for="hobby"><b>Personal Interests:</b></label><br>
+        
+        <label><input type="checkbox" name="intr" value="Sports" > Sports</label>
+        <label><input type="checkbox" name="intr" value="Books"> Books</label>
+        <label><input type="checkbox" name="intr" value="Software"> Software</label>
+        <label><input type="checkbox" name="intr" value="Fashion"> Fashion</label>
+        <label><input type="checkbox" name="intr" value="Travelling">Travelling</label>
+ 
+    </div>
+ </fieldset>
+</div>
+
+<div>
+ <fieldset>
+   <legend>Contact Details</legend>	
+    <div class="row">
+        <label for="num"><b>Contact Number:<sup>*</sup></b></label><br>
+        <input type="text" id="num" name="num" placeholder="Contact Number(s)" multiple title="Separate multiple contact numbers via ','">
+    </div>
+    <div class="row">
+        <label for="add"><b> Present Address:<sup>*</sup></b></label><br>
+   
+        <textarea rows="2" cols="30" name="add"></textarea><br>
+        <input type="text" name="city" placeholder="City"><br>
+        <input type="text"  name="state" placeholder="State"><br>
+        <input type="text" name="country" placeholder="Country"><br>
+        <input type="text"  name="zip" placeholder="ZIP">
+    </div>
+    <div class="row">
+        <label for="add"><b> Permanent Address:</b></label><br>
+  
+        <textarea rows="2" cols="30" name="add"></textarea><br>
+        <input type="text" name="city1" placeholder="City"><br>
+        <input type="text"  name="state11" placeholder="State"><br>
+        <input type="text" name="country1" placeholder="Country"><br>
+        <input type="text"  name="zip1" placeholder="ZIP"><br><br>
+    </div>
+   </fieldset>
+</div>
+
+
+    <div id="large">
+     <fieldset>
+       <legend>Login Details</legend>	
+       <div class="row">
+        <label for="mail"><b>Email Address:<sup>*</sup></b></label><br>
+        <input type="email" id="mail" name="mail" placeholder="email@abc.xyz" title="Login Id">
+        </div>
+    
+      <div class="row">
+        <label for="num"><b>Password:<sup>*</sup></b></label><br>
+        <input type="password" id="pwd" name="pwd" ><br>
+        <label for="num"><b>Confirm Password:<sup>*</sup></b></label><br>
+        <input type="password" id="pwd1" name="pwd1" >
+      </div>
+    
+   </fieldset>
+</div>
+<br>
+<div id="news">
+          <label><input type="checkbox" name="newsl" value="news"><i>Subscribe to our news letter.</i></label>
+
+  </div>
+<div class="row1">
+    <center>
+      <input type="submit" value="Submit">
+    </center>
+</div>
+</form>
+</fieldset>
+</div>
+
+
+<div id="last">
+  <pre><b>MyRewards<sup>&reg;</sup>
+Contact:</b> 9988998899
+  </pre>
+</div>
+
+</body>
+</html>

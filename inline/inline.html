@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport"
+	 content="width=device-width, initial-scale=1.0">
+
+    <title>Log-In Page</title>
+    <link rel="shortcut icon" 
+      type="image/png" 
+      href="images/icon.png">
+
+</head>
+
+<body style="background-color: #cac5a7;">
+
+<h1 style="background-color: #9F8686; font-family: courier;" ><img src="images/icon.png" alt="logo" style="float: left; background: #9F8686; max-height: 30px; width: 40px; padding-right: 7px;" /><i> MyRewards</i></h1>
+
+
+<div style="width: 25%;  float: left; box-sizing: border-box;">
+	<br>
+	<img src="images/rew.gif" alt="reward" style="width: 19em; height: auto; " />
+	    <p style="margin-left: 7px;" >   <i style="font-family: courier; color: darkblue; ">Get a chance to win exciting rewards every hour!!</i><p>
+
+</div>
+
+
+
+
+<div style="width: 75%; float: left; box-sizing: border-box;">
+
+
+<fieldset style="background-color: lightgray;">
+	<legend><i><b>User Registration</b></i></legend>
+
+
+
+<form action="/action_page.php">
+
+ <div style="float: left; width: 50%; height: auto;">
+ <fieldset>
+   <legend>Personal Details</legend>
+    <div class="row">
+        <label style="padding: 10px 10px 10px; display: inline-block;" for="fname"><b>First Name:<sup style="color: red;">*</sup></b></label>
+        <br>
+        <input type="text" id="fname" name="firstname" placeholder="Full Name" style=" margin-left: 12px;" >
+    </div>
+    <div class="row">
+        <label style="padding: 10px 10px 10px; display: inline-block;" for="lname"><b>Last Name:<sup style="color: red;">*</sup></b></label><br>
+        <input type="text" id="lname" name="lastname" placeholder="Middle Name" style="margin-left: 12px;">
+    </div>
+    <div class="row">
+        <label style="padding: 10px 10px 10px; display: inline-block;" for="lname"><b>Date of Birth:</b></label><br>
+        <input  type="date" id="dob" name="dob" placeholder="DD/MM/YYYY" style="margin-left: 12px;">
+    </div>
+    <div class="row">
+        
+        <label style="padding: 10px 10px 10px; display: inline-block;" for="gend"><b>Gender:<sup style="color: red;">*</sup></b></label><br>
+        <input type="radio" name="gend" value="male" checked style="margin-left: 12px;"> Male<br>
+        <input type="radio" name="gend" value="female" style="margin-left: 12px;"> Female<br>
+        <input type="radio" name="gend" value="other" style="margin-left: 12px;"> Other  
+    
+    </div>
+    <div class="row">
+        <label style="padding: 10px 10px 10px; display: inline-block;" for="hobby"><b>Personal Interests:</b></label><br>
+        
+        <label style="padding: 5px 5px 5px; display: inline-block;" ><input type="checkbox" name="intr" value="Sports" style="margin-left: 12px;" > Sports</label>
+        <label style="padding: 5px 5px 5px; display: inline-block;" ><input type="checkbox" name="intr" value="Books" style="margin-left: 12px;"> Books</label>
+        <label style="padding: 5px 5px 5px; display: inline-block;" ><input type="checkbox" name="intr" value="Software" style="margin-left: 12px;"> Software</label>
+        <label style="padding: 5px 5px 5px; display: inline-block;" ><input type="checkbox" name="intr" value="Fashion" style="margin-left: 12px;"> Fashion</label>
+        <label style="padding: 5px 5px 5px; display: inline-block;" ><input type="checkbox" name="intr" value="Travelling" style="margin-left: 12px;">Travelling</label>
+ 
+    </div>
+ </fieldset>
+</div>
+
+<div style="float: left; width: 50%; height: auto;">
+ <fieldset>
+   <legend>Contact Details</legend>	
+    <div class="row">
+        <label style="padding: 10px 10px 10px; display: inline-block;"  for="num"><b>Contact Number:<sup style="color: red;">*</sup></b></label><br>
+        <input type="text" id="num" name="num" placeholder="Contact Number(s)" multiple title="Separate multiple contact numbers via ','" style=" margin-left: 12px;">
+    </div>
+    <div class="row">
+        <label style="padding: 10px 10px 10px; display: inline-block;" for="add"><b> Present Address:<sup style="color: red;">*</sup></b></label><br>
+   
+        <textarea rows="2" cols="30" name="add" style="margin-left: 12px;"></textarea><br>
+        <input type="text" name="city" placeholder="City" style=" margin-left: 12px;"><br>
+        <input type="text"  name="state" placeholder="State" style="margin-left: 12px;"><br>
+        <input type="text" name="country" placeholder="Country" style="margin-left: 12px;"><br>
+        <input type="text"  name="zip" placeholder="ZIP" style="margin-left: 12px;">
+    </div>
+    <div class="row">
+        <label style="padding: 10px 10px 10px; display: inline-block;" for="add"><b> Permanent Address:</b></label><br>
+  
+        <textarea rows="2" cols="30" name="add" style=" margin-left: 12px;"></textarea><br>
+        <input type="text" name="city1" placeholder="City" style="margin-left: 12px;"><br>
+        <input type="text"  name="state11" placeholder="State" style="margin-left: 12px;"><br>
+        <input type="text" name="country1" placeholder="Country" style="margin-left: 12px;"><br>
+        <input type="text"  name="zip1" placeholder="ZIP" style= "margin-left: 12px;"><br>
+    </div>
+   </fieldset>
+</div>
+
+
+    <div style="float: left; width: 100%; height: auto;">
+     <fieldset style="float: all;">
+       <legend>Login Details</legend>	
+       <div>
+        <label style="padding: 10px 10px 10px; display: inline-block;" for="mail"><b>Email Address:<sup style="color: red;">*</sup></b></label><br>
+        <input type="email" id="mail" name="mail" placeholder="email@abc.xyz" title="Login Id" style="margin-left: 12px;">
+        </div>
+    
+      <div class="row">
+        <label style="padding: 10px 10px 10px; display: inline-block;" for="num"><b>Password:<sup style="color: red;">*</sup></b></label><br>
+        <input type="password" id="pwd" name="pwd" stylemargin-left: 12px;" style="margin-left: 12px;" ><br>
+        <label style="padding: 10px 10px 10px; display: inline-block;" for="num"><b> Confirm Password:<sup style="color: red;">*</sup></b></label><br>
+        <input type="password" id="pwd1" name="pwd1" stylemargin-left: 12px;" style="margin-left: 12px;" >
+      </div>
+    
+   </fieldset>
+</div>
+<br>
+    <div style="float: left; ">
+          <label><input type="checkbox" name="newsl" value="news"><i>Subscribe to our news letter.</i></label>
+
+  </div>
+   
+<div style="float: right;padding-top: 8px;">
+    <center>
+      <input type="submit" value="Submit" style="background-color: #4CAF50; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; float: right;">
+    </center>
+</div>
+</form>
+</fieldset>
+</div>
+
+
+<div style="background-color: #9F8686; padding-left: 7px; float: left; width:100%">
+  <pre><b>MyRewards<sup>&reg;</sup>
+Contact:</b> 9988998899
+  </pre>
+</div>
+
+</body>
+</html>

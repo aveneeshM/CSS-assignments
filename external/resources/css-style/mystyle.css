@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #cac5a7;
+}
+
+.ee1 {
+    float: left;
+    width: 25%;
+}
+.ee2 {
+    float: left;
+    width: 75%;
+}
+
+.ee1 p {
+    margin-left: 7px;
+    font-family: courier; 
+    color: darkblue;
+}
+.ee1 img {
+    width: 19em; 
+    height: auto; 
+}
+
+
+.header {
+	background-color: #9F8686;
+	font-family: courier;
+	 
+}
+.header img {
+  float: left;
+  background: #9F8686;
+  max-height: 30px;
+  width: 40px;
+  padding-right: 7px;
+  }
+  fieldset {
+    background-color: lightgray;
+  }
+  #medium {
+    float: left; 
+    width: 50%; 
+    height: auto;
+  }
+  #large {
+    float: left; 
+    width: 100%; 
+    height: auto;
+  }
+  #last {
+    background-color: #9F8686; 
+    padding-left: 7px; 
+    float: left; 
+    width:100%
+  }
+
+input[type=text], select, textarea, {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    padding-left: 7px;
+
+}
+
+
+label {
+    padding: 12px 12px 12px;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+
+
+input, textarea {
+	margin-left: 12px;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row1 {
+  float: right;
+  padding-top: 8px;
+}
+#news{
+  float: left;
+}
+
+sup{
+  color: red;
+}
+@media (max-width: 75em) {
+    div, fieldset {
+        width: 100%;
+        overflow: auto;
+
+    }
+}
+
+
+
