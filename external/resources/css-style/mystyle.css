@@ -5,21 +5,21 @@ body {
     background-color: #cac5a7;
 }
 
-.ee1 {
+.div1 {
     float: left;
     width: 25%;
 }
-.ee2 {
+.div2 {
     float: left;
     width: 75%;
 }
 
-.ee1 p {
+.div1 p {
     margin-left: 7px;
     font-family: courier; 
     color: darkblue;
 }
-.ee1 img {
+.div1 img {
     width: 19em; 
     height: auto; 
 }
